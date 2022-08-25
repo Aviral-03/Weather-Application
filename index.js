@@ -53,6 +53,27 @@ let weather = {
 
         document.querySelector('.sunrise_text').innerHTML = sunrise;
         document.querySelector('.sunset_text').innerHTML = sunset;
+
+        // const date = new Date(data.sys.sunrise * 1000);
+        // const sunrise = new Date((data.sys.sunrise + data.timezone) * 1e3).toISOString().slice(-13, -8) + ' AM';
+        // const sunset = new Date((data.sys.sunset + data.timezone) * 1e3).toISOString().slice(-13, -8) + ' PM'
+        // console.log(date, sunrise, sunset);
+        // let dateString = String(date)
+        // document.querySelector('.Day').innerHTML = dateString.substring(0, 3) + ','
+        // document.querySelector('.Date').innerHTML = dateString.substring(4,10)
+        //
+        // document.querySelector('.sunrise_text').innerHTML = sunrise;
+        // document.querySelector('.sunset_text').innerHTML = sunset;
+        // const date = new Date(data.sys.sunrise * 1000);
+        // const sunrise = new Date((data.sys.sunrise + data.timezone) * 1e3).toISOString().slice(-13, -8) + ' AM';
+        // const sunset = new Date((data.sys.sunset + data.timezone) * 1e3).toISOString().slice(-13, -8) + ' PM'
+        // console.log(date, sunrise, sunset);
+        // let dateString = String(date)
+        // document.querySelector('.Day').innerHTML = dateString.substring(0, 3) + ','
+        // document.querySelector('.Date').innerHTML = dateString.substring(4,10)
+        //
+        // document.querySelector('.sunrise_text').innerHTML = sunrise;
+        // document.querySelector('.sunset_text').innerHTML = sunset;
     }
 
 };
