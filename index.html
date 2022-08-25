@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="right-container">
+            <h2 class="header">Today's Highlight</h2>
+            <main class="grid">
+                <div class="card_text">
+                    <h3 class="text">Max/Min Temperature</h3>
+                    <p id="maxMinTemp" class="sub-text">5</p>
+                </div>
+
+                <div class="card_text">
+                    <h3 class="text">Wind Status</h3>
+                    <p id="windStatus" class="sub-text">6<span class="h">km/hr</span></p>
+                </div>
+                <div class="card_text">
+                    <h3 class="text">Sunrise & Sunset</h3>
+                    <div class="sun_container">
+                        <div class="sunrise"><img src="./images/sunrise.png" alt="Cloud" class="sun_icon"><p class="sunrise_text">Mostly Cloudy</p></div>
+                        <div class="sunrise"><img src="./images/sunset.png" alt="Rain" class="sun_icon"><p class="sunset_text">Rain - 30%</p></div>
+                    </div>
+                </div>
+                <div class="card_text">
+                    <h3 class="text">Humidity</h3>
+                    <p id="humidity" class="sub-text">8</p>
+                </div>
+                <div class="card_text">
+                    <h3 class="text">Visibility</h3>
+                    <p id="visibility" class="sub-text">9</p>
+                </div>
+                <div class="card_text">
+                    <h3 class="text">Pressure</h3>
+                    <p id="pressure" class="sub-text">10</p>
+                </div>
+            </main>
+        </div>
+        <div class="left-container">
+            <div class="currentWeather">
+                <img src="./images/sun.png" alt="icon" class="icon">
+            </div>
+            <h1 class="temperature">+19</h1>
+            <div class="Day_Date"><span class="Day">Monday,</span>
+                <span class="Date" style="padding-left:5px">12 March</span></div>
+            <div class="summary-container">
+                <h4 class="apparent-temperature">Feels Like: 30</h4>
+                <div class="WeatherDescription"><img src="./images/cloud.png" alt="Cloud" class="small_icon"><h4 class="WeatherCategory">Mostly Cloudy</h4></div>
+                <div class="RainDescription"><img src="./images/water.png" alt="Rain" class="small_icon"><h4 class="RainPercentage">Rain - 30%</h4></div>
+            </div>
+            <div class="sub-container">
+                <h3 style="font-size: 30px" class="imgLocation">Toronto, CA</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

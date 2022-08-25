@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-color: papayawhip;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+.left-container {
+    background-color: #fdfdfd;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 50px;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 500ms;
+}
+.currentWeather .icon {
+    height: auto;
+    width: 15%;
+    display: block;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.left-container .temperature {
+    margin: 10px;
+    font-size: 100px;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    text-indent: 80px;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+.Day_Date {
+    padding-bottom: 10px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+span.Day{
+    font-size: 18px;
+}
+span.Date {
+    font-size: 18px;
+    font-weight: bold;
+}
+.left-container .sub-container {
+    background-image: url("./images/toronto.jpg");
+    height: 15vh;
+    width: 55vh;
+    background-size: 100%;
+    border-radius: 20px;
+}
+.left-container .sub-container .imgLocation {
+    padding: 40px;
+    text-align: center;
+    color: honeydew;
+    margin: 25px 0 0 0;
+}
+.right-container {
+    margin-right: 50px;
+    border-radius: 40px 0 0 40px;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: #f0f0f6;
+    top: 0;
+    right: 0;
+    transition: 500ms;
+}
+.grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: stretch;
+    margin-top: 40vh;
+    margin-left: 8vh;
+}
+.card_text {
+    padding: 10px 0 0 10px  ;
+    width: 35vh;
+    height: 25vh;
+    background: ghostwhite;
+    border-radius: 20px;
+}
+.text {
+    text-indent: 10px;
+    color: darkgray;
+    font-weight: normal;
+    font-size: 15px;
+}
+.sub-text {
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+.sub-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+.sun_icon {
+    width: 15%;
+    height: auto;
+    margin: 0 10px 0 10px;
+}
+.sunrise {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+.header {
+    position: absolute;
+    margin: 60px;
+    top: 180px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.summary-container {
+    padding-top: 15px;
+}
+
+h4.apparent-temperature {
+    margin: 10px 0 10px 0;
+}
+.left-container .WeatherDescription {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    font-size: 14px;
+}
+.WeatherCategory {
+    margin: 0;
+}
+.RainDescription {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.RainPercentage {
+    margin: 0;
+}
+.small_icon {
+    width: 2%;
+    height: auto;
+    margin-right: 10px;
+}
+
+
